@@ -22,7 +22,7 @@ Some goals behind this project are to practice writing well structured, semantic
 
 ### Mobile Screen Grab
 
-![Mobile Screen Grab](https://imgur.com/hV6Zupx.png "Mobile Sreen Grab" width: 400px)
+![Mobile Screen Grab](https://imgur.com/hV6Zupx.png "Mobile Sreen Grab")
 
 ## Built with
 
