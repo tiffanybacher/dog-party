@@ -15,7 +15,7 @@ Some goals behind this project are to practice writing well structured, semantic
 ### Desktop Screen Grab:
 
 ![Desktop Screen Grab 1](https://imgur.com/zxz8Yyu.png "Desktop Screen 1 Grab")
-![Desktop Screen Grab 2](https://imgur.com/QTcBL18.png "Desktop Screen 2 Grab")
+![Desktop Screen Grab 2](https://imgur.com/NbYyktY.png "Desktop Screen 2 Grab")
 
 ### Mobile Screen Grab
 
