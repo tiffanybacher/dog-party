@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* HTML layout
+body
+  header
+    nav
+  main
+    section.cover
+    section.articles
+      article#how
+      article#what
+      article#facts
+  footer 
+*/
+
+/* body styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+  font-style: bold;
+}
+
+.dog-avatar {
+  border: solid #048eaa 4px;
+  border-radius: 50%;
+  width: 140px;
+}
+
+/* nav styles */
+
+nav {
+  background-color: #75e2e6;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #048eaa;
+  padding: 2px 0px 2px 15px;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 0px 20px 0px 0px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.dog-icon {
+  float: left;
+  margin: 4px 0px 0px;
+  width: 38px;
+}
+
+/* .cover styles */
+
+.cover {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url("images/park.jpg");
+  background-position: center; 
+  background-size: cover;
+  color: #fff;
+  padding: 10px 20px 20px;
+}
+
+.cover h1 {
+  font-size: 20pt;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+#cover-dog {
+  margin: 10px;
+}
+
+.cover label {
+  margin: 0px 260px 0px 0px;
+}
+
+.cover input {
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  width: 280px;
+}
+
+.cover input[type=submit] {
+  background-color: #75e2e6;
+  border-style: none;
+  font-size: 11pt;
+  font-weight: 600;
+  margin: 7px 4px 0px 0px;
+  width: 300px;
+}
+
+/* .articles styles */
+
+.articles {
+  column-count: 3;
+  column-gap: 60px;
+  padding: 20px 20px 30px;
+  max-width: 850px;
+  margin: auto;
+}
+
+article {
+  display: inline-block;
+  min-width: 175px;
+  position: relative;
+}
+
+article h2 {
+  font-weight: 700;
+}
+
+article p {
+  height: 200px;
+  overflow: scroll;
+  text-align: left;
+  padding: 0px 0px 40px;
+}
+
+article input[type=button] {
+  background-color: #048eaa;
+  border-style: none;
+  color: #fff;
+  font-size: 11pt;
+  padding: 12px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* footer styles */
+
+footer {
+  background-color: #048eaa;
+  color: #fff;
+  padding: 20px;
+}
+
+.sm-links img {
+  width: 35px;
+  padding: 10px;
+}
+
+/* mobile styles */
+
+@media only screen and (max-width: 640px) {
+
+  body {
+    font-size: 1.25em; 
+    min-width: 600px;
+  }
+
+  h1, h2 {
+    font-size: 2em;
+  }
+
+  nav li {
+    display: block;
+    font-size: 13pt;
+  }
+
+  .dog-icon {
+  float: left;
+  margin: 25px 0px 0px;
+  width: 60px;
+  }
+
+  .cover {
+  padding: 10px 20px 40px;
+  }
+
+  .cover h1 {
+    margin: 7px 0px 0px;
+  }
+
+  .dog-avatar {
+    width: 175px;
+    margin: 20px 0px;
+  }
+
+  #cover-dog {
+    margin: 20px 0px 30px;
+  }
+
+  .cover label {
+    margin: 0px 250px 0px 0px;
+  }
+  .cover input[type=text] {
+    padding: 15px 10px;
+  }
+
+  .cover input[type=submit] {
+  font-size: 1em;
+  } 
+  
+  .articles {
+    column-count: 1;
+  }
+
+  article {
+    display: block;
+    width: 65%;
+    margin: 50px auto 0px;
+  }
+
+  article p {
+    height: 0%;
+  }
+
+  article input[type=button] {
+  background-color: #048eaa;
+  border-style: none;
+  color: #fff;
+  font-size: 1.25em;
+  margin: 0px 0px 20px;
+  padding: 12px;
+  position: relative;
+  }
+
+  footer {
+  margin: 40px 0px 0px;
+  }
+
+  .sm-links img {
+  width: 50px;
+  padding: 15px 30px 20px;
+  }
+}
