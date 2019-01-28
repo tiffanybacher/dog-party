@@ -12,17 +12,14 @@ Some goals behind this project are to practice writing well structured, semantic
 
 ![Dog Party Comp](https://imgur.com/F0HQWqi.png "Dog Party Comp")
 
-### Desktop Screen Grab 1:
+### Desktop Screen Grab:
 
-![Desktop Screen Grab 1](https://imgur.com/elrCkld.png "Desktop Screen 1 Grab")
-
-### Desktop Screen Grab 2:
-
-![Desktop Screen Grab 2](https://imgur.com/RdPqj6E.png "Desktop Screen 2 Grab")
+![Desktop Screen Grab 1](https://imgur.com/zxz8Yyu.png "Desktop Screen 1 Grab")
+![Desktop Screen Grab 2](https://imgur.com/QTcBL18.png "Desktop Screen 2 Grab")
 
 ### Mobile Screen Grab
 
-![Mobile Screen Grab](https://imgur.com/hV6Zupx.png "Mobile Sreen Grab")
+![Mobile Screen Grab](https://imgur.com/L73BVSe.png "Mobile Sreen Grab")
 
 ## Built with
 
