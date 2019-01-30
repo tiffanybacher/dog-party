@@ -10,7 +10,7 @@ Some goals behind this project are to practice writing well structured, semantic
 
 ### Dog Party Comp:
 
-![Dog Party Comp](https://imgur.com/F0HQWqi.png "Dog Party Comp")
+![Dog Party Comp](https://imgur.com/HbC2clf.png "Dog Party Comp")
 
 ### Desktop Screen Grab:
 
